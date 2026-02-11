@@ -63,7 +63,7 @@ ingress:
   annotations:
     kubernetes.io/ingressClassName: "nginx"
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    # nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
   hosts:
     - host: spring-app.next-step-go.online
       paths:
